@@ -1,0 +1,859 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.container{
+   width: 1140px;
+   margin: 0px auto;
+}
+.col-lg-4{
+	width: 33%;
+	float: left;
+}
+.col-lg-8{
+	width: 66%;
+	float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+.header{
+	width: 100%;
+	padding: 15px 0px;
+	background: url("../images/backg.png") center top no-repeat;
+	background-size: cover;
+}
+.menu-bar{
+	width: 100%;
+	padding: 20px 0px;
+	border-bottom: 1px solid #8795a9;
+}
+.menu-item{
+	width: 100%;
+	text-align: right;
+}
+.contact-no p{
+	font-size: 14px;
+	font-weight: 700;
+}
+.contact-no .bike{
+	margin: 0px 7px 0px 0px;
+}
+.menu-item .main-menu{
+	width: 100%;
+}
+.main-menu li {
+    display: inline-block;
+}
+.main-menu li a{
+	font-size: 18px;
+    font-weight: 600;
+	text-decoration: none;
+	text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 0px 0px 0px 30px; 
+}
+.main-menu li a:hover, .main-menu li a:focus{
+    color: #fbad27;	
+}
+.hotline{
+	float: right;
+}
+.hotline li {
+    list-style: none;
+}
+.hotline  .fa{
+	font-size: 20px;
+    margin-right: 6px;
+}
+.hotline li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* banner css start */
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-banner{
+	padding: 120px 0px ;
+	text-align: center;
+}
+.inner-banner h1{
+	font-size: 68px;
+	line-height: 78px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+.inner-banner p{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+    margin-top: 20px;
+    padding: 10px;
+}
+.inner-banner .btn-primary{
+	padding: 10px 35px;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 500;
+	border-radius: 35px;
+	background: #fbad27;
+	color: #fff;
+	border: 1px solid #fbad27;
+	text-transform: capitalize;
+	transition: 1s;
+}
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+    background: transparent !important;
+	color: #fbad27 !important;
+	border: 1px solid #fff !important;
+}
+/*destination css start*/
+
+.destination{
+	width: 100%;
+	padding: 80px 0px;
+	border-bottom: 1px solid #ededed;
+}
+.destination .title{
+	text-align: center;
+}
+.destination .title h1{
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 400;
+	color: #000;
+	text-transform: capitalize;
+}
+.destination .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000;
+	margin-bottom: 20px;
+}
+.destination .title a{
+	font-size: 20px;
+	color: #616161;
+	text-decoration: none;	
+}
+.destination .title .fa{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.destination .find-section{
+	padding: 80px 0px 5px;
+}
+.inner-destination{
+	position: relative;
+} 
+.p{
+	font-size: 16px;
+	font-weight: 700;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	color: #fff;
+}
+
+/*fusion css start*/
+.fusion{
+	width: 100%;
+	padding: 80px 0px;
+    border-bottom: 1px solid #eee;
+}
+.fusion .title{
+	text-align: center;
+}
+.fusion .title h1{
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 400;
+	color: #000;
+	text-transform: capitalize;
+}
+.fusion .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000;
+	margin-bottom: 20px;
+}
+.inner-fusion{
+    padding: 40px 40px;
+}
+.inner-fusion h6{
+	font-size: 16px;
+	font-weight: 500;
+	color: #000;
+	margin: 20px 0px;
+}
+.inner-fusion p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000;
+}
+.inner-fusion:hover{
+	background: #fff;
+    box-shadow: 0px 10px 20px 0px;
+}
+.fusion .icon{
+	padding: 60px 0px 40px;
+	text-align: center;
+}
+.fusion .icon .fa{
+	font-size: 18px;
+	color: #999999;
+	margin: 0px 0px 0px 5px;
+}
+.fusion .icon .fa:hover{
+	font-size: 22px;
+	color: #fbad27;
+}
+
+/*blog css start*/
+.blog-section{
+	width: 100%;
+	padding: 80px 0px 60px;
+	border-bottom: 1px solid #ededed;
+}
+.blog-section .title{
+	text-align: center;
+}
+.blog-section  .title h1{
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 400;
+	color: #000;
+	text-transform: capitalize;
+}
+.blog-section  .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #6c6c6c;
+}
+.widget{
+   padding: 80px 0px 20px;
+}
+.inner-blog{
+	margin: 0px 0px 0px 15px;
+}
+.inner-blog h6{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #6c6c6c;
+	text-transform: capitalize;
+}
+.inner-blog p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #6c6c6c;
+}
+.inner-blog span{
+	color: #847c6f;
+}
+.keep{
+	padding: 50px 0px;
+	text-align: center;
+}
+.keep .btn-primary{
+	padding: 10px 40px;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 500;
+	border-radius: 35px;
+	background: #fbad27;
+	color: #fff;
+	border: 1px solid #fbad27;
+	text-transform: capitalize;
+	transition: 1s
+}
+.keep .btn-primary:hover, .keep .btn-primary:focus{
+	background: transparent !important;
+	color: #fbad27 !important;
+	border: 1px solid #fbad27 !important;
+}
+/*slider section css start*/
+.slider{
+	width: 100%;
+	padding: 80px 0px 40px;
+}
+.slider .title{
+	text-align: center;
+}
+.slider .title h1{
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 400;
+	color: #000;
+	text-transform: capitalize;
+}
+.slider .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #6c6c6c;
+	margin: 10px 0px 80px;
+}
+.slider .client{
+	width: 100%;
+	padding: 40px 30px;
+	background: #fff;
+    box-shadow: 0px 0px 30px 0px;
+}
+.slider .client .img-fluid{
+	border-radius: 5%;
+}
+.slider .client h6{
+	font-size: 16px;
+	font-weight: 500;
+	color: #fbad27;
+	text-transform: capitalize;
+	margin-top: 30px;
+}
+.slider .client p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color:  #6c6c6c;
+}
+.slider .icon{
+	padding: 80px 0px;
+	text-align: center;
+}
+.slider .icon .fa{
+	font-size: 18px;
+	color: #999999;
+	margin: 0px 0px 0px 5px;
+}
+.slider .icon .fa:hover{
+	font-size: 22px;
+	color: #fbad27;
+}
+/*discount css start*/
+.discount{
+	width: 100%;
+	padding: 80px 0px;
+	background: #fbad27;
+}
+.discount p{
+	font-size: 22px;
+	font-weight: 400;
+	color:  #fff;
+	text-align: center;
+}
+.discount .btn-primary{
+	padding: 7px 40px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	border-radius: 35px;
+	background: #fbad27;
+	color: #fff;
+	border: 1px solid #fff;
+	text-transform: capitalize;
+	transition: 1s
+}
+.discount .btn-primary:hover, .discount .btn-primary:focus{
+	background: transparent !important;
+	color: #000 !important;
+	border: 1px solid #000 !important;
+}
+/*footer css start*/
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	border-bottom: 1px solid #ededed;
+}
+
+.inner-footer h6{
+	font-size: 16px;
+	font-weight: 700;
+	color: #626262;
+	text-transform: capitalize;
+	margin-top: 30px;
+}
+.inner-f h6{
+	font-size: 16px;
+	font-weight: 700;
+	color: #626262;
+	text-transform: capitalize;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.inner-footer p{
+    font-size: 14px;
+    line-height: 24px;
+	font-weight: 400;
+	color: #616161;
+	margin-top: 20px;
+}
+.inner-f .social-icon{
+	margin-top: 20px;
+	text-align: center;
+}
+
+/*.social-icon{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 40px 0px;
+}*/
+.social-icon li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icon li a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background:  #616161;
+	font-size: 18px;
+	margin: 0px 2px;
+	color: #fff;
+    border: 1px solid  #616161;
+	border-radius: 100%;
+	transition: 1s;
+}
+.social-icon li a:hover{
+	background: transparent;
+	color: #fbad27;
+	border: 1px solid #fbad27;
+}
+.social-icon li a:focus{
+	background: transparent;
+	color: #fbad27;
+	border:1px solid #fbad27;
+}
+
+.cp{
+	text-align: center;
+	padding: 60px 0px 0px;
+}
+.cp p{
+    font-size: 14px;
+    line-height: 24px;
+	font-weight: 500;
+	color: #616161;
+	margin-top: 20px;
+}
+
+/*responsive css start here*/
+
+/* 
+  ##Device = Smartphones Mobiles (Galaxy-fold)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px){
+  
+		       /* CSS Start */
+		       .main-menu li a{
+		       	      font-size: 8px;
+                      font-weight: 500;
+		       }
+		        .hotline li a {
+				    font-size: 8px;
+				    font-weight: 500;
+				}
+				.banner {
+				    width: 100%;
+				    padding: 40px 0px;
+				}
+				.inner-banner h1 {
+				    font-size: 38px;
+				    line-height: 48px;
+				    font-weight: 700;
+				}
+				.inner-banner p {
+				    font-size: 10px;
+				    line-height: 20px;
+				}
+				.inner-banner .btn-primary {
+				    padding: 7px 25px;
+				    font-size: 12px;
+				    line-height: 22px;
+				}
+				.fusion .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.fusion .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.inner-fusion p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.destination .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.destination .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.blog-section .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.blog-section .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.img-fluid {
+				    max-width: 100%;
+				    height: auto;
+				    margin-bottom: 8px;
+				}
+				.inner-blog p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.blog-section {
+				    width: 100%;
+				    padding: 40px 0px;
+				}
+				.keep {
+                    padding: 20px 0px;
+                }
+				.keep .btn-primary {
+				    padding: 7px 25px;
+				    font-size: 14px;
+				    line-height: 24px;
+				}
+				.widget {
+				    padding: 20px 0px;
+				}
+				.slider {
+				    width: 100%;
+				    padding: 40px 0px;
+				}
+				.slider .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.slider .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.slider .client p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.slider .icon {
+				    padding: 30px 0px;
+				    text-align: center;
+				}
+				.inner-f h6{
+					text-align: left;
+				}
+		       /* CSS End */
+
+  
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+               /* CSS Start */
+               .main-menu li a{
+		       	      font-size: 10px;
+                      font-weight: 500;
+		       }
+		        .hotline li a {
+				    font-size: 10px;
+				    font-weight: 500;
+				}
+				.banner {
+				    width: 100%;
+				    padding: 40px 0px;
+				}
+				.inner-banner h1 {
+				    font-size: 38px;
+				    line-height: 48px;
+				    font-weight: 700;
+				}
+				.inner-banner p {
+				    font-size: 10px;
+				    line-height: 20px;
+				}
+				.inner-banner .btn-primary {
+				    padding: 7px 25px;
+				    font-size: 12px;
+				    line-height: 22px;
+				}
+				.fusion .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.fusion .title p {
+				    font-size: 10px;
+				    line-height: 20px;
+				}
+				.inner-fusion p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.destination .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.destination .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.blog-section .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.blog-section .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.widget .img-fluid {
+				    width: 100%;
+				    height: 100%;
+				    margin-bottom: 8px;
+				}
+				.inner-widget .img-fluid {
+				    /*width: 100%;
+				    height: 100%;*/
+				    margin-bottom: 10px;
+				}
+				.inner-blog p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.blog-section {
+				    width: 100%;
+				    padding: 40px 0px;
+				}
+				.keep {
+                    padding: 20px 0px;
+                }
+				.keep .btn-primary {
+				    padding: 7px 25px;
+				    font-size: 14px;
+				    line-height: 24px;
+				}
+				.widget {
+				    padding: 20px 0px;
+				}
+				.slider {
+				    width: 100%;
+				    padding: 40px 0px;
+				}
+				.slider .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.slider .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.slider .client p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.slider .icon {
+				    padding: 30px 0px;
+				    text-align: center;
+				}
+				.inner-f h6{
+					text-align: left;
+				}
+				.discount p {
+				    font-size: 18px;
+			    }
+			    .discount .btn-primary {
+				    padding: 7px 20px;
+				}
+		       /* CSS End */
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+                /* CSS Start */
+                .main-menu li a{
+		       	      font-size: 8px;
+                      font-weight: 500;
+		       }
+		        .hotline li a {
+				    font-size: 8px;
+				    font-weight: 500;
+				}
+				.banner {
+				    width: 100%;
+				    padding: 40px 0px;
+				}
+				.inner-banner h1 {
+				    font-size: 38px;
+				    line-height: 48px;
+				    font-weight: 700;
+				}
+				.inner-banner p {
+				    font-size: 10px;
+				    line-height: 20px;
+				}
+				.inner-banner .btn-primary {
+				    padding: 7px 25px;
+				    font-size: 12px;
+				    line-height: 22px;
+				}
+				.fusion .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.fusion .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.inner-fusion p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.destination .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.destination .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.blog-section .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.blog-section .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.img-fluid {
+				    max-width: 100%;
+				    height: auto;
+				    margin-bottom: 8px;
+				}
+				.inner-blog p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.blog-section {
+				    width: 100%;
+				    padding: 40px 0px;
+				}
+				.keep {
+                    padding: 20px 0px;
+                }
+				.keep .btn-primary {
+				    padding: 7px 25px;
+				    font-size: 14px;
+				    line-height: 24px;
+				}
+				.widget {
+				    padding: 20px 0px;
+				}
+				.slider {
+				    width: 100%;
+				    padding: 40px 0px;
+				}
+				.slider .title h1 {
+				    font-size: 28px;
+				    line-height: 38px;
+				}
+				.slider .title p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.slider .client p {
+				    font-size: 8px;
+				    line-height: 18px;
+				}
+				.slider .icon {
+				    padding: 30px 0px;
+				    text-align: center;
+				}
+				.inner-f h6{
+					text-align: left;
+				}
+		       /* CSS End */  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+               /* CSS Start */
+                .main-menu li a{
+	       	       font-size: 12px;
+                   font-weight: 500;
+		       }
+		        .hotline li a {
+				    font-size: 12px;
+				    font-weight: 500;
+				}
+               .inner-widget{
+               	  padding: 40px 0px;
+               }
+               .inner-blog h6{
+               	  font-size: 14px;
+               	  line-height: 24px;
+               }
+                .inner-blog p{
+               	  font-size: 10px;
+               	  line-height: 20px;
+               }
+               .inner-fusion p {
+				    font-size: 12px;
+				    line-height: 22px;
+				}
+				.slider .client p {
+				    font-size: 12px;
+				    line-height: 22px;
+				}
+
+		       /* CSS End */ 
+}
+
+
+
