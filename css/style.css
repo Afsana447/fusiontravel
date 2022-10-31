@@ -13,66 +13,30 @@ h1, h2, h3, h4, h5, h6{
 a, a:hover{
     text-decoration: none;
 }
-.container{
-   width: 1140px;
-   margin: 0px auto;
-}
-.col-lg-4{
-	width: 33%;
-	float: left;
-}
-.col-lg-8{
-	width: 66%;
-	float: left;
-}
-.col-lg-12{
-	width: 100%;
-	float: left;
-}
 .header{
 	width: 100%;
 	padding: 15px 0px;
 	background: url("../images/backg.png") center top no-repeat;
-	background-size: cover;
+	background-size: cover
+}
+.header .navbar-nav .nav-item .nav-link{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 25px;
+	transition: 1s;
+}
+.header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus{
+	color: #fbad27;	
 }
 .menu-bar{
 	width: 100%;
-	padding: 20px 0px;
+	padding: 0px 0px 12px;
 	border-bottom: 1px solid #8795a9;
 }
-.menu-item{
-	width: 100%;
-	text-align: right;
-}
-.contact-no p{
-	font-size: 14px;
-	font-weight: 700;
-}
-.contact-no .bike{
-	margin: 0px 7px 0px 0px;
-}
-.menu-item .main-menu{
-	width: 100%;
-}
-.main-menu li {
-    display: inline-block;
-}
-.main-menu li a{
-	font-size: 18px;
-    font-weight: 600;
-	text-decoration: none;
-	text-transform: capitalize;
-    color: #fff;
-    letter-spacing: 2px;
-    margin: 0px 0px 0px 30px; 
-}
-.main-menu li a:hover, .main-menu li a:focus{
-    color: #fbad27;	
-}
-.hotline{
-	float: right;
-}
-.hotline li {
+.hotline li{
     list-style: none;
 }
 .hotline  .fa{
@@ -418,12 +382,11 @@ a, a:hover{
 	text-align: center;
 }
 
-/*.social-icon{
+.social-icon{
 	width: 100%;
 	display: block;
 	text-align: center;
-	padding: 40px 0px;
-}*/
+}
 .social-icon li{
 	list-style: none;
 	display: inline-block;
@@ -474,16 +437,25 @@ a, a:hover{
 @media (min-width: 279px) and (max-width: 319px){
   
 		       /* CSS Start */
-		       .main-menu li a{
-		       	      font-size: 8px;
-                      font-weight: 500;
-		       }
+		        .header .navbar-toggler .fa-bars{
+                     color: #fff;        
+		         }
+		        .header .navbar-toggler:focus{
+		             box-shadow: 1px 1px 1px #506a85;
+		         }
+		        .header .navbar-nav .nav-item .nav-link{
+		            margin: 0px;
+		            font-size: 10px;  
+		         }
+		        .header .navbar-nav .nav-item .nav-link {
+				    font-size: 10px;
+				    line-height: 20px;
+				}
 		        .hotline li a {
 				    font-size: 8px;
 				    font-weight: 500;
 				}
 				.banner {
-				    width: 100%;
 				    padding: 40px 0px;
 				}
 				.inner-banner h1 {
@@ -501,8 +473,8 @@ a, a:hover{
 				    line-height: 22px;
 				}
 				.fusion .title h1 {
-				    font-size: 28px;
-				    line-height: 38px;
+				    font-size: 26px;
+				    line-height: 36px;
 				}
 				.fusion .title p {
 				    font-size: 8px;
@@ -513,16 +485,16 @@ a, a:hover{
 				    line-height: 18px;
 				}
 				.destination .title h1 {
-				    font-size: 28px;
-				    line-height: 38px;
+				    font-size: 20px;
+				    line-height: 30px;
 				}
 				.destination .title p {
 				    font-size: 8px;
 				    line-height: 18px;
 				}
 				.blog-section .title h1 {
-				    font-size: 28px;
-				    line-height: 38px;
+				    font-size: 20px;
+				    line-height: 30px;
 				}
 				.blog-section .title p {
 				    font-size: 8px;
@@ -538,12 +510,11 @@ a, a:hover{
 				    line-height: 18px;
 				}
 				.blog-section {
-				    width: 100%;
 				    padding: 40px 0px;
 				}
 				.keep {
-                    padding: 20px 0px;
-                }
+                                   padding: 20px 0px;
+                               }
 				.keep .btn-primary {
 				    padding: 7px 25px;
 				    font-size: 14px;
@@ -557,8 +528,8 @@ a, a:hover{
 				    padding: 40px 0px;
 				}
 				.slider .title h1 {
-				    font-size: 28px;
-				    line-height: 38px;
+				    font-size: 20px;
+				    line-height: 30px;
 				}
 				.slider .title p {
 				    font-size: 8px;
@@ -575,8 +546,13 @@ a, a:hover{
 				.inner-f h6{
 					text-align: left;
 				}
+				.cp p {
+				  font-size: 8px;
+				}
+				.social-icon{
+					margin-right: 50%;
+				}
 		       /* CSS End */
-
   
 }
 
@@ -587,17 +563,28 @@ a, a:hover{
 */
 
 @media (min-width: 320px) and (max-width: 480px){
-               /* CSS Start */
-               .main-menu li a{
-		       	      font-size: 10px;
-                      font-weight: 500;
-		       }
-		        .hotline li a {
-				    font-size: 10px;
-				    font-weight: 500;
+                        /* CSS Start */
+
+			    .header .navbar-toggler .fa-bars{
+					   color: #fff;        
+				}
+				.header .navbar-toggler:focus{
+				       box-shadow: 1px 1px 1px #506a85;
+				}
+				.header .navbar-nav .nav-item .nav-link{
+				       margin: 0px;
+				       font-size: 10px;  
+				}
+
+			       .header .navbar-nav .nav-item .nav-link {
+					    font-size: 12px;
+					    line-height: 22px;
+			        }
+				.hotline li a {
+					    font-size: 10px;
+					    font-weight: 500;
 				}
 				.banner {
-				    width: 100%;
 				    padding: 40px 0px;
 				}
 				.inner-banner h1 {
@@ -615,8 +602,8 @@ a, a:hover{
 				    line-height: 22px;
 				}
 				.fusion .title h1 {
-				    font-size: 28px;
-				    line-height: 38px;
+				    font-size: 24px;
+				    line-height: 34px;
 				}
 				.fusion .title p {
 				    font-size: 10px;
@@ -627,16 +614,16 @@ a, a:hover{
 				    line-height: 18px;
 				}
 				.destination .title h1 {
-				    font-size: 28px;
-				    line-height: 38px;
+				    font-size: 24px;
+				    line-height: 34px;
 				}
 				.destination .title p {
 				    font-size: 8px;
 				    line-height: 18px;
 				}
 				.blog-section .title h1 {
-				    font-size: 28px;
-				    line-height: 38px;
+				    font-size: 24px;
+				    line-height: 34px;
 				}
 				.blog-section .title p {
 				    font-size: 8px;
@@ -648,7 +635,7 @@ a, a:hover{
 				    margin-bottom: 8px;
 				}
 				.inner-widget .img-fluid {
-				    /*width: 100%;
+				  /*  width: 100%;
 				    height: 100%;*/
 				    margin-bottom: 10px;
 				}
@@ -661,8 +648,8 @@ a, a:hover{
 				    padding: 40px 0px;
 				}
 				.keep {
-                    padding: 20px 0px;
-                }
+				    padding: 20px 0px;
+				}
 				.keep .btn-primary {
 				    padding: 7px 25px;
 				    font-size: 14px;
@@ -696,11 +683,11 @@ a, a:hover{
 				}
 				.discount p {
 				    font-size: 18px;
-			    }
-			    .discount .btn-primary {
-				    padding: 7px 20px;
-				}
-		       /* CSS End */
+			       }
+				 .discount .btn-primary {
+					    padding: 7px 20px;
+			      }	
+		         /* CSS End */
 }
 
 
@@ -710,13 +697,23 @@ a, a:hover{
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-                /* CSS Start */
-                .main-menu li a{
-		       	      font-size: 8px;
-                      font-weight: 500;
-		       }
-		        .hotline li a {
+
+			/* CSS Start */
+				.header .navbar-toggler .fa-bars{
+				    color: #fff;        
+				 }
+				.header .navbar-toggler:focus{
+				       box-shadow: 1px 1px 1px #506a85;
+				 }
+				.header .navbar-nav .nav-item .nav-link{
+				       margin: 0px;
+				       font-size: 10px;  
+				 }
+				.header .navbar-nav .nav-item .nav-link {
+					    font-size: 14px;
+					    line-height: 24px;
+				}
+		              .hotline li a {
 				    font-size: 8px;
 				    font-weight: 500;
 				}
@@ -780,8 +777,8 @@ a, a:hover{
 				    padding: 40px 0px;
 				}
 				.keep {
-                    padding: 20px 0px;
-                }
+				    padding: 20px 0px;
+				}
 				.keep .btn-primary {
 				    padding: 7px 25px;
 				    font-size: 14px;
@@ -824,26 +821,36 @@ a, a:hover{
 @media (min-width: 768px) and (max-width: 1024px) {
   
                /* CSS Start */
-                .main-menu li a{
-	       	       font-size: 12px;
-                   font-weight: 500;
-		       }
-		        .hotline li a {
+			    .header .navbar-toggler .fa-bars{
+			        color: #fff;        
+			     }
+			    .header .navbar-toggler:focus{
+				    box-shadow: 1px 1px 1px #506a85;
+			      }
+			     .header .navbar-nav .nav-item .nav-link{
+				     margin: 0px;
+				     font-size: 14px;  
+			      }
+			     .header .navbar-nav .nav-item .nav-link {
+				    font-size: 15px;
+				    line-height: 25px;
+			  	}
+		             .hotline li a {
 				    font-size: 12px;
 				    font-weight: 500;
 				}
-               .inner-widget{
-               	  padding: 40px 0px;
-               }
-               .inner-blog h6{
-               	  font-size: 14px;
-               	  line-height: 24px;
-               }
-                .inner-blog p{
-               	  font-size: 10px;
-               	  line-height: 20px;
-               }
-               .inner-fusion p {
+			       .inner-widget{
+				  padding: 40px 0px;
+			       }
+			       .inner-blog h6{
+				  font-size: 14px;
+				  line-height: 24px;
+			       }
+				.inner-blog p{
+				  font-size: 10px;
+				  line-height: 20px;
+			       }
+                              .inner-fusion p {
 				    font-size: 12px;
 				    line-height: 22px;
 				}
